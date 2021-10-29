@@ -384,7 +384,7 @@ echo `expr $a \| $b`  # 输出3
 
 **实例：**
 
-![img](https://cdn.nlark.com/yuque/0/2021/png/2099170/1635318782884-6f63197d-a6fa-44c8-957f-53f3b27cabf2.png)
+![img](https://cdn.jsdelivr.net/gh/Winniekun/cloudImg@master/uPic/1635318782884-6f63197d-a6fa-44c8-957f-53f3b27cabf2.png)
 
 ## echo命令
 
@@ -623,7 +623,7 @@ name="hello world wkk"
 [ "$name" == "hello world wkk" ]  # 正确
 ```
 
-![img](https://cdn.nlark.com/yuque/0/2021/png/2099170/1635333938673-c174236c-495a-4843-80e2-13ccfc91b825.png)
+![img](https://cdn.jsdelivr.net/gh/Winniekun/cloudImg@master/uPic/1635333938673-c174236c-495a-4843-80e2-13ccfc91b825.png)
 
 ## 判断
 
@@ -799,7 +799,7 @@ esac
 其他
 ```
 
-![img](https://cdn.nlark.com/yuque/0/2021/png/2099170/1635337139596-01f9f78b-2dd9-4e05-a5d6-0c538533a0ad.png)
+![img](https://cdn.jsdelivr.net/gh/Winniekun/cloudImg@master/uPic/1635337139596-01f9f78b-2dd9-4e05-a5d6-0c538533a0ad.png)
 
 ## 循环
 
@@ -820,19 +820,19 @@ done
 
 #### I 正常示例：
 
-![img](https://cdn.nlark.com/yuque/0/2021/png/2099170/1635337381653-a8161f96-f1d5-431f-a49b-e7bba523d93d.png)
+![img](https://cdn.jsdelivr.net/gh/Winniekun/cloudImg@master/uPic/1635337381653-a8161f96-f1d5-431f-a49b-e7bba523d93d.png)
 
 #### II 输出当前路径下的所有文件名，每个文件名一行:
 
-![img](https://cdn.nlark.com/yuque/0/2021/png/2099170/1635337485738-481fcb41-0a9d-4336-aff0-cb261949ce1f.png)
+![img](https://cdn.jsdelivr.net/gh/Winniekun/cloudImg@master/uPic/1635337485738-481fcb41-0a9d-4336-aff0-cb261949ce1f.png)
 
 #### III 输出1-10
 
-![img](https://cdn.nlark.com/yuque/0/2021/png/2099170/1635337835287-6cba1dbf-e097-4080-b615-5a0c5efe7f85.png)
+![img](https://cdn.jsdelivr.net/gh/Winniekun/cloudImg@master/uPic/1635337835287-6cba1dbf-e097-4080-b615-5a0c5efe7f85.png)
 
 #### IV使用{1..10} 或者 {a..z}
 
-![img](https://cdn.nlark.com/yuque/0/2021/png/2099170/1635338063907-1f025108-8610-4aa9-8fc3-d1ceb10509cb.png)
+![img](https://cdn.jsdelivr.net/gh/Winniekun/cloudImg@master/uPic/1635338063907-1f025108-8610-4aa9-8fc3-d1ceb10509cb.png)
 
 ### for ((…;…;…)) do…done
 
@@ -848,7 +848,7 @@ done
 
 #### I 输出1-10，每个数占一行：
 
-![img](https://cdn.nlark.com/yuque/0/2021/png/2099170/1635338526631-bc9ed425-fcef-4f32-8ea4-b1b49156c9f5.png)
+![img](https://cdn.jsdelivr.net/gh/Winniekun/cloudImg@master/uPic/1635338526631-bc9ed425-fcef-4f32-8ea4-b1b49156c9f5.png)
 
 ### while…do…done循环
 
@@ -865,7 +865,7 @@ done
 
 #### 文件结束符为Ctrl+d，输入文件结束符后read指令返回false
 
-![img](https://cdn.nlark.com/yuque/0/2021/png/2099170/1635338649144-c2b4a8eb-24fd-408e-9f98-9467d78f502f.png)
+![img](https://cdn.jsdelivr.net/gh/Winniekun/cloudImg@master/uPic/1635338649144-c2b4a8eb-24fd-408e-9f98-9467d78f502f.png)
 
 ### until…do…done循环
 
@@ -882,7 +882,7 @@ done
 
 #### 当用户输入yes或者YES时结束，否则一直等待读入
 
-![img](https://cdn.nlark.com/yuque/0/2021/png/2099170/1635338942622-32895d62-afe4-475c-bf95-bfad68f9bc62.png)
+![img](https://cdn.jsdelivr.net/gh/Winniekun/cloudImg@master/uPic/1635338942622-32895d62-afe4-475c-bf95-bfad68f9bc62.png)
 
 ### break命令
 
@@ -890,13 +890,13 @@ done
 
 示例：
 
-![img](https://cdn.nlark.com/yuque/0/2021/png/2099170/1635339120492-9e9c3076-d93e-417b-b8f7-fbfb457402eb.png)
+![img](https://cdn.jsdelivr.net/gh/Winniekun/cloudImg@master/uPic/1635339120492-9e9c3076-d93e-417b-b8f7-fbfb457402eb.png)
 
 ### continue命令
 
 跳出当前循环
 
-![img](https://cdn.nlark.com/yuque/0/2021/png/2099170/1635339178975-0461bd27-86a0-4029-b205-deef2ded71b4.png)
+![img](https://cdn.jsdelivr.net/gh/Winniekun/cloudImg@master/uPic/1635339178975-0461bd27-86a0-4029-b205-deef2ded71b4.png)
 
 ### 编写shell时造成的死循环问题：
 
@@ -923,11 +923,11 @@ bash中的函数类似于Java中的方法，但return的返回值与Java不同�
 
 ### 不获取 return值和stdout值
 
-![img](https://cdn.nlark.com/yuque/0/2021/png/2099170/1635339797006-ff75f5ca-ee54-402d-a5a7-58d71e7c66bd.png)
+![img](https://cdn.jsdelivr.net/gh/Winniekun/cloudImg@master/uPic/1635339797006-ff75f5ca-ee54-402d-a5a7-58d71e7c66bd.png)
 
 ### 获取 return值和stdout值
 
-![img](https://cdn.nlark.com/yuque/0/2021/png/2099170/1635339980595-c40f3ef5-7b80-4362-b8bd-72beff69c5c6.png)
+![img](https://cdn.jsdelivr.net/gh/Winniekun/cloudImg@master/uPic/1635339980595-c40f3ef5-7b80-4362-b8bd-72beff69c5c6.png)
 
 ### 函数的入参
 
@@ -935,11 +935,11 @@ bash中的函数类似于Java中的方法，但return的返回值与Java不同�
 
 注意：函数内的$0仍然是文件名，而不是函数名。
 
-![img](https://cdn.nlark.com/yuque/0/2021/png/2099170/1635340381800-89fb0ea6-55fe-4aeb-abe0-f13c451e990f.png)
+![img](https://cdn.jsdelivr.net/gh/Winniekun/cloudImg@master/uPic/1635340381800-89fb0ea6-55fe-4aeb-abe0-f13c451e990f.png)
 
 ### 局部变量
 
-![img](https://cdn.nlark.com/yuque/0/2021/png/2099170/1635340563612-b38ad57c-d9c5-44c3-bfb8-ee36c1a9d379.png)
+![img](https://cdn.jsdelivr.net/gh/Winniekun/cloudImg@master/uPic/1635340563612-b38ad57c-d9c5-44c3-bfb8-ee36c1a9d379.png)
 
 ## exit
 
@@ -950,7 +950,7 @@ bash中的函数类似于Java中的方法，但return的返回值与Java不同�
 
 
 
-![img](https://cdn.nlark.com/yuque/0/2021/png/2099170/1635341329021-bc1d10cf-d3ec-473e-ac04-686af10ba529.png)
+![img](https://cdn.jsdelivr.net/gh/Winniekun/cloudImg@master/uPic/1635341329021-bc1d10cf-d3ec-473e-ac04-686af10ba529.png)
 
 
 
@@ -977,11 +977,11 @@ bash中的函数类似于Java中的方法，但return的返回值与Java不同�
 
 ### 输入和输出重定向
 
-![img](https://cdn.nlark.com/yuque/0/2021/png/2099170/1635341841809-ede8b3a9-0d55-459d-bc95-8f1ef0dc792d.png)
+![img](https://cdn.jsdelivr.net/gh/Winniekun/cloudImg@master/uPic/1635341841809-ede8b3a9-0d55-459d-bc95-8f1ef0dc792d.png)
 
 ### 同时重定向stdin和stdout
 
-![img](https://cdn.nlark.com/yuque/0/2021/png/2099170/1635342088452-be41a62e-5d2d-4ff7-b1e6-24c19a53b87c.png)
+![img](https://cdn.jsdelivr.net/gh/Winniekun/cloudImg@master/uPic/1635342088452-be41a62e-5d2d-4ff7-b1e6-24c19a53b87c.png)
 
 ## 引入外部脚本
 
@@ -999,4 +999,4 @@ source filename
 
 示例：
 
-![img](https://cdn.nlark.com/yuque/0/2021/png/2099170/1635342741941-a4043101-8fbf-4888-b98e-6beddab253d7.png)
+![img](https://cdn.jsdelivr.net/gh/Winniekun/cloudImg@master/uPic/1635342741941-a4043101-8fbf-4888-b98e-6beddab253d7.png)

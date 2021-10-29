@@ -24,7 +24,7 @@ Linux中最优秀的一个地方在于他的多用户多任务环境。提供多
 
 ## Linux文件属性
 
-![img](https://cdn.nlark.com/yuque/0/2021/png/2099170/1634888426826-5a0cf6d4-858d-460f-a62e-c8b57e2abe2c.png)
+![img](https://cdn.jsdelivr.net/gh/Winniekun/cloudImg@master/uPic/1634888426826-5a0cf6d4-858d-460f-a62e-c8b57e2abe2c.png)
 
 顺序为 owner group others，同时不同的组的文件权限保持不变，统一为r、w、x
 
