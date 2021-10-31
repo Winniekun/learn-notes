@@ -112,7 +112,8 @@ declare -x nam ie  # 第二种方法
 环境变量改为自定义变量：
 
 ```bash
-export name=yxc  # 定义环境变量
+export name=kwk
+# 定义环境变量
 declare +x name  # 改为自定义变量
 ```
 
@@ -260,7 +261,7 @@ ${#array[*]}  # 第二种写法
 **例如：**
 
 ```bash
-array=(1 abc "def" yxc)
+array=(1 abc "def" kwk)
 echo ${#array[@]}  # 第一种写法
 echo ${#array[*]}  # 第二种写法
 ```
@@ -619,7 +620,7 @@ echo $?  # 输出上个命令的返回值，输出0
 
 ```bash
 name="hello world wkk"
-[ $name == "hello world wkk" ]  # 错误，等价于 [ acwing yxc == "acwing yxc" ]，参数太多
+[ $name == "hello world wkk" ]  # 错误，等价于 [ acwing kwk == "acwing kwk" ]，参数太多
 [ "$name" == "hello world wkk" ]  # 正确
 ```
 
